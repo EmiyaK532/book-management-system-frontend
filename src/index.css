@@ -99,8 +99,8 @@ button:focus-visible {
 }
 
 /* 图书列表样式 */
-#bookMange {
-  display:flex;
+#bookManage {
+  display: flex;
   flex-direction: column;
 }
 
@@ -112,22 +112,22 @@ button:focus-visible {
 }
 
 #bookManage .content {
-  padding:20px
+  padding: 20px;
 }
 
-#bookManage .book-list {
+#bookManage .book-list{
   padding: 20px;
   display: flex;
   flex-wrap: wrap;
 }
 
-#bookMange .book-list .card{
+#bookManage .book-list .card{
   margin-left: 30px;
   margin-bottom: 30px;
 }
 
-#bookMange .book-list .links{
-  display:flex;
+#bookManage .book-list .links{
+  display: flex;
   flex-direction: row;
   justify-content: space-around;
 }
