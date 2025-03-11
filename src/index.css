@@ -99,8 +99,8 @@ button:focus-visible {
 }
 
 /* 图书列表样式 */
-#bookManage {
-  display: flex;
+#bookMange {
+  display:flex;
   flex-direction: column;
 }
 
@@ -112,10 +112,10 @@ button:focus-visible {
 }
 
 #bookManage .content {
-  padding: 20px;
+  padding:20px
 }
 
-#bookManage .book-list{
+#bookManage .book-list {
   padding: 20px;
   display: flex;
   flex-wrap: wrap;
@@ -127,7 +127,11 @@ button:focus-visible {
 }
 
 #bookManage .book-list .links{
-  display: flex;
+  display:flex;
   flex-direction: row;
   justify-content: space-around;
+}
+
+#bookManage .book-list .author {
+  margin: 10px 10px;
 }

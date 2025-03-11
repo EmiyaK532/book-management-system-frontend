@@ -8,7 +8,7 @@ import {
   Link,
   useNavigate,
 } from 'react-router-dom';
-import { login } from '../../api/user';
+import { login } from '@/api/user';
 
 interface LoginUser {
   username: string;
